@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import Hero from '../../components/Hero'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import { InstagramEmbed } from 'react-social-media-embed';
 
 import { SliderData } from '../../components/SliderData'
 import Slider from '../../components/Slider'
@@ -24,7 +25,32 @@ export default function Home() {
       </Head>
       
       <Hero heading = 'Peter McGuinness Photography' message=''/>
-      <div className="container-medium-zoom">
+      <div id='galleryZoom' className='max-w-[1240px] mx-auto'>
+      <p className="py-5"></p>
+
+      <div id='gallery' className='max-w-[1240px] mx-auto'>
+            <h1    style={{
+              fontSize: '1.5rem',
+              lineHeight: '2rem',
+              textAlign: 'center',
+              padding: '2',
+              fontFamily: 'inherit'
+        }}>Gallery</h1>
+
+            </div>
+
+                <hr
+        style={{
+          background: 'brown',
+          color: 'brown',
+          borderColor: 'brown',
+          width: '50%',
+          margin: 'auto'
+        }}
+      />
+      <p className="py-5"></p>
+      
+
             <Zoom  overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
                 <img  alt="landscape" src='https://petermcguinnessphotography.com/static/media/25-31%20topazeded2%20Topaz%20Restyle%203.8d77f0fb.jpg'/>
             </Zoom>
@@ -34,6 +60,9 @@ export default function Home() {
 
 
       <Instagram/>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
+</div>
     </div>
   );
 }
