@@ -5,6 +5,7 @@ import Hero from '../../components/Hero'
 
 import { SliderData } from '../../components/SliderData'
 import Slider from '../../components/Slider'
+import { Instagram } from '../../components/Instagram'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,10 @@ export default function Home() {
       </Head>
       <Hero heading = 'Peter McGuinness Photography' message=''/>
       <Slider slides={SliderData}/>
+
+
+
+      <Instagram/>
     </div>
   );
 }
