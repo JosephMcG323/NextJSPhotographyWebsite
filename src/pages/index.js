@@ -14,6 +14,7 @@ import Slider from '../../components/Slider'
 
 const longImgStyle = { maxWidth: '95%' }
 const longImgStyleBoat = { maxWidth: '107%' }
+const longImgStyleReeds = { maxWidth: '104.5%' }
 
 const IMAGES =
   [{
@@ -313,10 +314,15 @@ export default function Home() {
           <img alt="landscape" src='/mainImg/DSCF2988 copybuz.jpg' style={longImgStyle}/>
         </Zoom>   
 
+        <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} style={longImgStyleReeds} >
+          <img alt="landscape" src='/mainImg/PortraitExample.jpg' style={longImgStyleReeds} />
+        </Zoom>
+
         <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} style={longImgStyleBoat} >
           <img alt="landscape" src='/mainImg/CNV00022.JPG' style={longImgStyleBoat}/>
         </Zoom>   
-  
+
+
   
         <div className='w-full h-full'>
           <Image
@@ -377,6 +383,9 @@ export default function Home() {
           <img alt="landscape" src='/mainImg/Screen Shot 2022-01-02 at 23.39.22.png' />
         </Zoom>
 
+
+
+        
         </div>
         <div className='w-full h-full'>
           <Image
