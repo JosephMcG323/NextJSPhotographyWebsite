@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
 
                   <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='BirdsDSC02360.4f1de0da.jpg' />
+          <img alt="landscape" src='/mainImg/BirdsDSC02360.4f1de0da.jpg' />
         </Zoom>
         </div>
         <div className='w-full h-full'>
@@ -58,18 +58,18 @@ const Portfolio = () => {
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
 
                   <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='Screen Shot 2022-01-02 at 23.40.00.png' />
+          <img alt="landscape" src='/mainImg/Screen Shot 2022-01-02 at 23.40.00.png' />
         </Zoom>
         </div>
         <div className='w-full h-full'>
         <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='/Screen Shot 2022-01-02 at 23.40.44.png' />
+          <img alt="landscape" src='/mainImg/Screen Shot 2022-01-02 at 23.40.44.png' />
         </Zoom>
 
         </div>
         <div className='w-full h-full'>
         <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='/Screen Shot 2022-01-02 at 23.39.22.png' />
+          <img alt="landscape" src='/mainImg/Screen Shot 2022-01-02 at 23.39.22.png' />
         </Zoom>
 
         </div>
