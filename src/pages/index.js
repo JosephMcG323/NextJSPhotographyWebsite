@@ -301,38 +301,42 @@ export default function Home() {
 
 {/* START GRID PART WITH WHITE TULIPS */}
 <div className='max-w-[1240px] mx-auto py-5 text-center'>
-      <div className='grid grid-rows-none md:grid-cols-5 p-0 gap-4'>
-        <div>
+      <div className='grid grid-rows-none md:grid-cols-4 p-0 gap-4'>
+        <div class="crop-container-lillys"  >
           
           <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='/mainImg/DSCF0958 nousm.jpg' width="400" height="600"/>
+          <img alt="landscape" src='/mainImg/DSCF0958 nousm.jpg' width="400" height="600"
+          />
         </Zoom>
     
         </div>
 
-        <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} width="100" height="200" style={longImgStyle} >
-          <img alt="landscape" src='/mainImg/DSCF2988 copybuz.jpg' style={longImgStyle}/>
+
+   
+
+
+<div class="crop-container-church" >
+<Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} width="100" height="200" style={longImgStyle} >
+          <img alt="landscape" src='/mainImg/DSCF2988 copybuz.jpg' />
         </Zoom>   
+</div>
 
-        <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} style={longImgStyleReeds} >
-          <img alt="landscape" src='/mainImg/PortraitExample.jpg' style={longImgStyleReeds} />
+<div class="crop-container-reeds" >
+
+<Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'}  >
+          <img alt="landscape" src='/mainImg/PortraitExample.jpg'  />
         </Zoom>
+</div>
+ 
 
-        <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} style={longImgStyleBoat} >
-          <img alt="landscape" src='/mainImg/CNV00022.JPG' style={longImgStyleBoat}/>
+        <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'}   >
+          <img alt="landscape" src='/mainImg/CNV00022.JPG'  />
         </Zoom>   
 
 
   
         <div className='w-full h-full'>
-          <Image
-            src='https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80'
-            alt='/'
-            width='215'
-            height='217'
-            layout='responsive'
-            objectFit='cover'
-          />
+
         </div>
         <div className='w-full h-full'>
           <Image

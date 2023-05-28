@@ -7,8 +7,46 @@ html {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.home5Main {
+  margin-top: 5%;
+  border: 2px solid grey;
+  width: 100%;
+  height: 400px;
+}
+
+.home5Main1Img {
+  float: left;
+  width: 13%;
+  height: auto;
+}
 .custom-img {
 
+  background-image: url('/mainImg/IMG_20210830_091751.jpg');
+
+}
+.custom-img2 {
   background-image: url('https://i.imgur.com/5K05N1z.jpeg');
 
+
+}
+.crop-container-church {
+
+  overflow: hidden;
+}
+.crop-container-church img {
+  margin-top: -60px;
+}
+.crop-container-reeds {
+
+  overflow: hidden;
+}
+.crop-container-reeds img {
+  margin-top: -10px;
+}
+.crop-container-lillys {
+
+  overflow: hidden;
+}
+.crop-container-lillys img {
+  margin-top: -30px;
 }
