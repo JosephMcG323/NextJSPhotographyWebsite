@@ -4,9 +4,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 STUFF TO ADD!
 
+
+It makes you want to spit, plaque and description,
+flowers too
+
+
+
+================
+
+https://irishcomics.fandom.com/wiki/Ximoc
+
+
+https://vimeo.com/14879347
+
 Doors of Belfast Tie and Description
 https://www.npmjs.com/package/react-image-lightbox
 
+
+
+=============
 https://photoswipe.com/getting-started/
 
 ## Getting Started

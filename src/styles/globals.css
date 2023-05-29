@@ -9,9 +9,10 @@ html {
 
 .home5Main {
   margin-top: 5%;
-  border: 2px solid grey;
   width: 100%;
   height: 400px;
+  padding-top: 15%;
+  padding-right: 6%;
 }
 
 .home5Main1Img {
@@ -24,11 +25,15 @@ html {
   background-image: url('/mainImg/IMG_20210830_091751.jpg');
 
 }
+
 .custom-img2 {
-  background-image: url('https://i.imgur.com/5K05N1z.jpeg');
-
-
+  background-image: url('/mainImg/IMG_20210414_180008.jpg');
 }
+
+.custom-img-flower {
+  background-image: url('/mainImg/IMG_20210412_171529.jpg');
+}
+
 .crop-container-church {
 
   overflow: hidden;
@@ -49,4 +54,10 @@ html {
 }
 .crop-container-lillys img {
   margin-top: -30px;
+}
+
+.crop-container-work-chair {
+  margin-bottom: -7px;
+  margin-top: -14px;
+
 }

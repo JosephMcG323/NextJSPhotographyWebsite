@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../../components/Hero'
+import Hero2 from '../../components/Hero2'
 import Portfolio from '../../components/Portfolio'
 
 const work = () => {
   return (
     <div>
-        <Hero heading='My Work' message = 'This is some of my recent work'></Hero>
+        <Hero2 heading='My Work' message = 'This is some of my recent work'></Hero2>
         <Portfolio></Portfolio>
     </div>
   )
