@@ -175,7 +175,7 @@ const Portfolio = () => {
             textAlign: 'center',
             padding: '2',
             fontFamily: 'inherit'
-          }}>Doors of Belfast</h1>
+          }}>Noteable work in Northern Irealnd</h1>
 
         <hr
           style={{
@@ -192,12 +192,12 @@ const Portfolio = () => {
       <div className='grid   p-4 gap-4'>
    
       <div className="home5Main">
-      <img alt="landscape" src='/mainImg/DadOldWork/PlaqueDoorsOfBelfast.png' />
+      <img alt="landscape" src='/mainImg/DadOldWork/Noteable NI work .png' />
       
                       </div>
                       <div className="home5Main1">
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='/mainImg/DadOldWork/DoorsOfBelfastWhite.jpg' />
+          <img alt="landscape" src='/mainImg/DadOldWork/Poster PMG 3 DSC05449.95b0afdd.jpg' />
         </Zoom>      
                       </div>           
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>

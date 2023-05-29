@@ -114,6 +114,63 @@ const IMAGES2 =
     {
       src: "/mainImg/DSC01066.JPG",
       thumbnail:  "/mainImg/DSC01066.JPG",
+      thumbnailWidth: 320,
+      thumbnailHeight: 312,
+      tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+    {
+      src: "/mainImg/lomo Infrared (free action)rose copy.jpg",
+      thumbnail:  "/mainImg/lomo Infrared (free action)rose copy.jpg",
+      thumbnailWidth: 370,
+      thumbnailHeight: 312,
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+    {
+      src: "/mainImg/DSCF0875.jpg",
+      thumbnail:  "/mainImg/DSCF0875.jpg",
+      thumbnailWidth: 220,
+      thumbnailHeight: 312,
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+  
+  {
+    src: "/mainImg/DSC01045 r300usm.jpg",
+    thumbnail:  "/mainImg/DSC01045 r300usm.jpg",
+    thumbnailWidth: 280,
+    thumbnailHeight: 400,
+    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+
+  {
+    src: "/mainImg/DSCF0828 copy.jpg",
+    thumbnail:  "/mainImg/DSCF0828 copy.jpg",
+    thumbnailWidth: 580,
+    thumbnailHeight: 400,
+    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  
+  {
+    src: "/mainImg/Coole Snow Pan278-282glow 2.jpg",
+    thumbnail:  "/mainImg/Coole Snow Pan278-282glow 2.jpg",
+    thumbnailWidth: 495,
+    thumbnailHeight: 300,
+    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  
+
+]
+
+
+
+const IMAGESafterSnow =
+  [
+    {
+      src: "/mainImg/DSC01066.JPG",
+      thumbnail:  "/mainImg/DSC01066.JPG",
       thumbnailWidth: 420,
       thumbnailHeight: 312,
       tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
@@ -150,21 +207,8 @@ const IMAGES2 =
     tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
     caption: "Boats (Jeshu John - designerspics.com)"
   },
-  {
-    src: "/mainImg/DSCF4881.JPG",
-    thumbnail:  "/mainImg/DSCF4881.JPG",
-    thumbnailWidth: 320,
-    thumbnailHeight: 412,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
-  },
-  {
-    src: "/mainImg/DSCF0662ed2 copy.jpg    ",
-    thumbnail:  "/mainImg/DSCF0662ed2 copy.jpg",
-    thumbnailWidth: 220,
-    thumbnailHeight: 412,
-    caption: "Boats (Jeshu John - designerspics.com)"
-  },
+
+
   
   {
     src: "/mainImg/DSC01045 r300usm.jpg",
@@ -175,43 +219,30 @@ const IMAGES2 =
     caption: "Boats (Jeshu John - designerspics.com)"
   },
 
-]
-
-
-const IMAGES3Flowers =
-  [    {
-    src: "/mainImg/DSC00465.jpg",
-    thumbnail:  "/mainImg/DSC00465.jpg",
-    thumbnailWidth: 390,
-    thumbnailHeight: 312,
-    caption: "Boats (Jeshu John - designerspics.com)"
-  },
-    {
-      src: "/mainImg/BlueBellsLumix ed2 P1040896.jpg",
-      thumbnail:  "/mainImg/BlueBellsLumix ed2 P1040896.jpg",
-      thumbnailWidth: 420,
-      thumbnailHeight: 312,
-      tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
-
-    {
-      src: "/mainImg/DSC05579 ed1.jpg",
-      thumbnail:  "/mainImg/DSC05579 ed1.jpg",
-      thumbnailWidth: 420,
-      thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
-
   {
-    src: "/mainImg/DSC04509.JPG",
-    thumbnail:  "/mainImg/DSC04509.JPG",
-    thumbnailWidth: 420,
-    thumbnailHeight: 312,
+    src: "/mainImg/DSCF0828 copy.jpg",
+    thumbnail:  "/mainImg/DSCF0828 copy.jpg",
+    thumbnailWidth: 680,
+    thumbnailHeight: 400,
     tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
     caption: "Boats (Jeshu John - designerspics.com)"
   },
   
+  {
+    src: "/mainImg/St M&M Snow DSCF0794 SnowAction Res 300 A3.jpg",
+    thumbnail:  "/mainImg/St M&M Snow DSCF0794 SnowAction Res 300 A3.jpg",
+    thumbnailWidth: 610,
+    thumbnailHeight: 400,
+    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  {
+    src: "/mainImg/DSCF0662ed2 copy.jpg    ",
+    thumbnail:  "/mainImg/DSCF0662ed2 copy.jpg",
+    thumbnailWidth: 220,
+    thumbnailHeight: 412,
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
   {
     src: "/mainImg/DSCF4881.JPG",
     thumbnail:  "/mainImg/DSCF4881.JPG",
@@ -220,22 +251,8 @@ const IMAGES3Flowers =
     tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
     caption: "Boats (Jeshu John - designerspics.com)"
   },
-  {
-    src: "/mainImg/BBxyzP1040886.jpg",
-    thumbnail:  "/mainImg/BBxyzP1040886.jpg",
-    thumbnailWidth: 244,
-    thumbnailHeight: 326,
-    caption: "Boats (Jeshu John - designerspics.com)"
-  },
-  {
-    src: "/mainImg/DSCF3499.jpg",
-    thumbnail:  "/mainImg/DSCF3499.jpg",
-    thumbnailWidth: 320,
-    thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
-  },
 ]
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -279,23 +296,33 @@ export default function Home() {
         <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='https://petermcguinnessphotography.com/static/media/25-31%20topazeded2%20Topaz%20Restyle%203.8d77f0fb.jpg' />
         </Zoom>
+        <div id='gallery' className='max-w-[1240px] mx-auto'>
         <Gallery images={IMAGES} />
+
+</div>        <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>
-        <h1 > ​​​​</h1>
-        
+
+    <br />
+
         <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/Stitch Coole House Morning frost0121+ 0123.jpg' />
         </Zoom>
         <Gallery images={IMAGES2} />
-
+{/* 
         <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/Bogcotton fc DSCF9482-DSCF9486 fc.jpg' />
         </Zoom>
-        <Gallery images={IMAGES3Flowers} />
+        <Gallery images={IMAGES3Flowers} /> */}
 
-        <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='/mainImg/DSCF0950 Snowdrop lampscape usm sharpened 34x18infc.jpg' />
-        </Zoom>
+        <div className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+
+        </div>
 
         
 
@@ -338,36 +365,6 @@ export default function Home() {
         <div className='w-full h-full'>
 
         </div>
-        <div className='w-full h-full'>
-          <Image
-            src='https://images.unsplash.com/photo-1472791108553-c9405341e398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2437&q=80'
-            alt='/'
-            width='215'
-            height='217'
-            layout='responsive'
-            objectFit='cover'
-          />
-        </div>
-        <div className='w-full h-full'>
-          <Image
-            src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
-            alt='/'
-            width='215'
-            height='217'
-            layout='responsive'
-            objectFit='cover'
-          />
-        </div>
-        <div className='w-full h-full'>
-          <Image
-            src='https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2419&q=80'
-            alt='/'
-            width='215'
-            height='217'
-            layout='responsive'
-            objectFit='cover'
-          />
-        </div>
       </div>
    
     </div>
@@ -378,7 +375,7 @@ export default function Home() {
       <div style={{ display: 'flex', justifyContent: 'center', height: '15vh' }}>
         </div>
 
-      <Slider slides={SliderData} />
+      {/* <Slider slides={SliderData} /> */}
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
       </div>
