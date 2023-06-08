@@ -5,7 +5,7 @@ import Panorama from '../../components/Panorama'
 const panorama = () => {
   return (
     <div>
-        <Hero2 heading='My Work' message = 'This is some of my recent work'></Hero2>
+        <Hero2 heading='' message = ''></Hero2>
         <Panorama></Panorama>
     </div>
   )

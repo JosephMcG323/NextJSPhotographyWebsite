@@ -1,20 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Hero from '../../components/Hero'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { InstagramEmbed } from 'react-social-media-embed';
 import React from 'react';
-import { render } from 'react-dom';
 import Gallery from 'react-grid-gallery';
-import { SliderData } from '../../components/SliderData'
-import Slider from '../../components/Slider'
-
-
 const longImgStyle = { maxWidth: '95%' }
-const longImgStyleBoat = { maxWidth: '107%' }
-const longImgStyleReeds = { maxWidth: '104.5%' }
 
 const IMAGES =
   [{
@@ -22,15 +14,14 @@ const IMAGES =
     thumbnail:  "/mainImg/Bog Cotton Pink Sky DSCF9495 dy britness r300 usm A1.jpg",
     thumbnailWidth: 300,
     thumbnailHeight: 200,
-    caption: "Swan (Peter McGuinness - Petermcguinnessphotography.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
 },
   {
     src: "/mainImg/trees.jpg",
     thumbnail:  "/mainImg/trees.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
   {
@@ -38,8 +29,7 @@ const IMAGES =
     thumbnail:  "/mainImg/DSCF0253.JPG",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
   {
@@ -47,64 +37,56 @@ const IMAGES =
     thumbnail:  "/mainImg/reed reflect DSC08977ed2.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/SunburstCoole0009.jpg",
     thumbnail:  "/mainImg/SunburstCoole0009.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/TILT LAKE TOPPIT Stitch ed1.jpg",
     thumbnail:  "/mainImg/TILT LAKE TOPPIT Stitch ed1.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 412,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/Tree Coole Moody Tree CooleDSCF2607.jpg",
     thumbnail:  "/mainImg/Tree Coole Moody Tree CooleDSCF2607.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/2004_1018rainbowekn0026.JPG",
     thumbnail:  "/mainImg/2004_1018rainbowekn0026.JPG",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/2004_1019stmichaelnunsgraves0097 ed3 oil-sepia from photo filterDP.jpg",
     thumbnail:  "/mainImg/2004_1019stmichaelnunsgraves0097 ed3 oil-sepia from photo filterDP.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 412,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/DSC03934.JPG",
     thumbnail:  "/mainImg/DSC03934.JPG",
     thumbnailWidth: 420,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/DSC08841.jpg",
     thumbnail:  "/mainImg/DSC08841.jpg",
     thumbnailWidth: 420,
     thumbnailHeight: 512,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
 ]
@@ -116,22 +98,21 @@ const IMAGES2 =
       thumbnail:  "/mainImg/DSC01066.JPG",
       thumbnailWidth: 320,
       thumbnailHeight: 312,
-      tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-      caption: "Boats (Jeshu John - designerspics.com)"
+        caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
     {
       src: "/mainImg/lomo Infrared (free action)rose copy.jpg",
       thumbnail:  "/mainImg/lomo Infrared (free action)rose copy.jpg",
       thumbnailWidth: 370,
       thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
     {
       src: "/mainImg/DSCF0875.jpg",
       thumbnail:  "/mainImg/DSCF0875.jpg",
       thumbnailWidth: 220,
       thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
   
   {
@@ -139,8 +120,7 @@ const IMAGES2 =
     thumbnail:  "/mainImg/DSC01045 r300usm.jpg",
     thumbnailWidth: 280,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
   {
@@ -148,8 +128,7 @@ const IMAGES2 =
     thumbnail:  "/mainImg/DSCF0828 copy.jpg",
     thumbnailWidth: 580,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   
   {
@@ -157,8 +136,7 @@ const IMAGES2 =
     thumbnail:  "/mainImg/Coole Snow Pan278-282glow 2.jpg",
     thumbnailWidth: 495,
     thumbnailHeight: 300,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   
 
@@ -173,22 +151,21 @@ const IMAGESafterSnow =
       thumbnail:  "/mainImg/DSC01066.JPG",
       thumbnailWidth: 420,
       thumbnailHeight: 312,
-      tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
     {
       src: "/mainImg/lomo Infrared (free action)rose copy.jpg",
       thumbnail:  "/mainImg/lomo Infrared (free action)rose copy.jpg",
       thumbnailWidth: 420,
       thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
     {
       src: "/mainImg/DSCF0875.jpg",
       thumbnail:  "/mainImg/DSCF0875.jpg",
       thumbnailWidth: 320,
       thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "Peter McGuinness - Petermcguinnessphotography.com"
     },
 
   {
@@ -196,16 +173,14 @@ const IMAGESafterSnow =
     thumbnail:  "/mainImg/DSC04509.JPG",
     thumbnailWidth: 420,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/CNV00024b.JPG",
     thumbnail:  "/mainImg/CNV00024b.JPG",
     thumbnailWidth: 490,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
 
@@ -215,8 +190,7 @@ const IMAGESafterSnow =
     thumbnail:  "/mainImg/DSC01045 r300usm.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 
   {
@@ -224,8 +198,7 @@ const IMAGESafterSnow =
     thumbnail:  "/mainImg/DSCF0828 copy.jpg",
     thumbnailWidth: 680,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   
   {
@@ -233,23 +206,21 @@ const IMAGESafterSnow =
     thumbnail:  "/mainImg/St M&M Snow DSCF0794 SnowAction Res 300 A3.jpg",
     thumbnailWidth: 610,
     thumbnailHeight: 400,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/DSCF0662ed2 copy.jpg    ",
     thumbnail:  "/mainImg/DSCF0662ed2 copy.jpg",
     thumbnailWidth: 220,
     thumbnailHeight: 412,
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
   {
     src: "/mainImg/DSCF4881.JPG",
     thumbnail:  "/mainImg/DSCF4881.JPG",
     thumbnailWidth: 320,
     thumbnailHeight: 412,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
+    caption: "Peter McGuinness - Petermcguinnessphotography.com"
   },
 ]
 
@@ -294,10 +265,10 @@ export default function Home() {
 
 
         <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
-          <img alt="landscape" src='https://petermcguinnessphotography.com/static/media/25-31%20topazeded2%20Topaz%20Restyle%203.8d77f0fb.jpg' />
+          <img alt="landscape" src='/mainImg/panorama/25-31 topazeded2 Topaz Restyle 3.jpg' />
         </Zoom>
         <div id='gallery' className='max-w-[1240px] mx-auto'>
-        <Gallery images={IMAGES} />
+        <Gallery images={IMAGES} enableImageSelection={false}   />
 
 </div>        <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>
@@ -307,7 +278,7 @@ export default function Home() {
         <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/Stitch Coole House Morning frost0121+ 0123.jpg' />
         </Zoom>
-        <Gallery images={IMAGES2} />
+        <Gallery images={IMAGES2} enableImageSelection = {false} />
 {/* 
         <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/Bogcotton fc DSCF9482-DSCF9486 fc.jpg' />
@@ -377,7 +348,7 @@ export default function Home() {
 
       {/* <Slider slides={SliderData} /> */}
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
+        <InstagramEmbed url="https://www.instagram.com/p/CclicpoD-Rd/?hl=en" width={328} />
       </div>
 
     </div>

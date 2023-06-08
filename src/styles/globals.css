@@ -20,6 +20,13 @@ html {
   width: 13%;
   height: auto;
 }
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  padding-left: 9%;
+
+}
 .custom-img {
 
   background-image: url('/mainImg/IMG_20210830_091751.jpg');
@@ -32,6 +39,10 @@ html {
 
 .custom-img-flower {
   background-image: url('/mainImg/IMG_20210412_171529.jpg');
+}
+
+.custom-imga4 {
+  background-image: url('/mainImg/DadOldWork/firefox_eZWfsAOWtn.ce50ed2b.png');
 }
 
 .crop-container-church {

@@ -11,32 +11,26 @@ const IMAGES3Flowers =
     thumbnail:  "/mainImg/DSC00465.jpg",
     thumbnailWidth: 390,
     thumbnailHeight: 312,
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
     {
       src: "/mainImg/BlueBellsLumix ed2 P1040896.jpg",
       thumbnail:  "/mainImg/BlueBellsLumix ed2 P1040896.jpg",
       thumbnailWidth: 420,
       thumbnailHeight: 312,
-      tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
+        },
 
     {
       src: "/mainImg/DSC05579 ed1.jpg",
       thumbnail:  "/mainImg/DSC05579 ed1.jpg",
       thumbnailWidth: 420,
       thumbnailHeight: 312,
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
+      },
 
   {
     src: "/mainImg/DSC04509.JPG",
     thumbnail:  "/mainImg/DSC04509.JPG",
     thumbnailWidth: 420,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   
   {
@@ -44,23 +38,18 @@ const IMAGES3Flowers =
     thumbnail:  "/mainImg/DSCF4881.JPG",
     thumbnailWidth: 320,
     thumbnailHeight: 412,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/BBxyzP1040886.jpg",
     thumbnail:  "/mainImg/BBxyzP1040886.jpg",
     thumbnailWidth: 244,
     thumbnailHeight: 326,
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/DSCF3499.jpg",
     thumbnail:  "/mainImg/DSCF3499.jpg",
     thumbnailWidth: 290,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
 
   {
@@ -68,46 +57,36 @@ const IMAGES3Flowers =
     thumbnail:  "/mainImg/Dandylion Seed 1207r300 usm 111-9 39x29in.jpg",
     thumbnailWidth: 420,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/DSC04671 12x12.jpg",
     thumbnail:  "/mainImg/DSC04671 12x12.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/Lillies Skuds P1040402 ed1.jpg",
     thumbnail:  "/mainImg/Lillies Skuds P1040402 ed1.jpg",
     thumbnailWidth: 390,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/Wild-Rose-Peter-McGuinness-.jpg",
     thumbnail:  "/mainImg/Wild-Rose-Peter-McGuinness-.jpg",
     thumbnailWidth: 330,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   {
     src: "/mainImg/Yellow Flower1 P1020853.JPG",
     thumbnail:  "/mainImg/Yellow Flower1 P1020853.JPG",
     thumbnailWidth: 390,
     thumbnailHeight: 312,
-    tags: [{ value: "Ocean", title: "Ocean" }, { value: "People", title: "People" }],
-    caption: "Boats (Jeshu John - designerspics.com)"
   },
   
 ]
 const flowers = () => {
   return (
-    <div><HeroFlower heading='Scenery' message=''/>
+    <div><HeroFlower heading='' message=''/>
             <p className="py-2"></p>
 
 <h1 style={{
@@ -135,7 +114,7 @@ const flowers = () => {
     <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/Bogcotton fc DSCF9482-DSCF9486 fc.jpg' />
         </Zoom>
-        <Gallery images={IMAGES3Flowers} />
+        <Gallery images={IMAGES3Flowers} enableImageSelection = {false} />
 
         <Zoom className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
           <img alt="landscape" src='/mainImg/DSCF0950 Snowdrop lampscape usm sharpened 34x18infc.jpg' />
