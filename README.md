@@ -5,6 +5,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 STUFF TO ADD!
 
 
+
+Images to optimize - use nextjs image tag
+
+https://nextjs.org/docs/pages/building-your-application/optimizing/images
+
+
+https://nextjs.org/docs/pages/building-your-application/optimizing/images
+
+
 It makes you want to spit, plaque and description,
 flowers too
 
